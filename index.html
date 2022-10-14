@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cryptography</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+
+
+
+
+    <div class="container">
+        <img src="./img/Gaius_Julius_Caesar.png" alt="Avatar" class="image">
+        <div class="overlay">
+            <div class="text">Olá Eu Sou Júlio César</div>
+        </div>
+    </div>
+
+    <h2>Caio Júlio César (nome real de Gaius Julius Caesar) foi um militar e governante romano no período de
+        transição no final
+        do período republicano da história de Roma Antiga. Nasceu em Roma em 13 de julho de 100 a.C e faleceu em 15
+        de março de
+        44 a.C. no mesmo local de nascimento.</h2>
+    </div>
+    <div class="logo">
+
+        <img src="./img/logo2.png">
+        <br>
+        <br>
+        <h2>Em criptografia, a Cifra de César, também conhecida como cifra de troca, código de César ou troca de
+            César,
+            é uma das
+            mais simples e conhecidas técnicas de criptografia.</h2>
+    </div>
+    <div class="conteudo">
+
+        <div class="container2">
+            <h1>Selecione :</h1>
+            <input class="inputs" type="radio" id="cifra" name="escolha" class="criptografias" onclick="on()">
+            <label for="cifra" class="criptografias">Cifra de César</label>
+            <br>
+            <br>
+
+            <input class="inputs" type="radio" id="b64" name="escolha" class="criptografias" onclick="off()">
+            <label for="b64" class="criptografias">Base64</label>
+            <br>
+            <br>
+            <input class="inputs" type="number" id="esc" placeholder="Insira o número para incremento">
+            <br>
+            <br>
+            <textarea class="inputs" type="text" id="texto" placeholder="Insira o texto para criptografar"
+                rows="5"></textarea>
+            <br>
+            <br>
+
+            <button class="btn" id="crip" type="submit" onclick="cript()" value="enviar"> Criptografar </button>
+            <button class="btn" id="des" type="submit" onclick="descript()" value="enviar"> Descriptografar </button>
+            <br>
+            <br>
+            <textarea class="inputs" type="text" id="resposta" rows="5"></textarea>
+
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
